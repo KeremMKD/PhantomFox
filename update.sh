@@ -5,7 +5,7 @@
 
 set -e
 
-REPO_URL="https://raw.githubusercontent.com/MKDPrime/PhantomFox/main/user.js"
+REPO_URL="https://raw.githubusercontent.com/KeremMKD/PhantomFox/main/user.js"
 
 echo "🔄 Updating PhantomFox user.js ..."
 
