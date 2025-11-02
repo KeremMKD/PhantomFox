@@ -28,7 +28,7 @@ Yes, you heard right, PhantomFox user.js works on all Firefox-based browsers! It
 Clone this repository or just download the `user.js` file:
 
 ```bash
-git clone https://github.com/MKDPrime/PhantomFox.git
+git clone https://github.com/KeremMKD/PhantomFox.git
 cd PhantomFox
 ```
 
