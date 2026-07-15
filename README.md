@@ -66,32 +66,12 @@ Restart Firefox. Done ✅
 
 ---
 
-## 🔄 Updating
-
-To update PhantomFox, just run:
-
-```bash
-cd PhantomFox
-git pull
-cp user.js <your-firefox-profile-folder>/
-```
-
-You always stay on the latest version with **one command**.
-
----
-
 ## 📌 Why PhantomFox?
 
 Unlike Arkenfox (huge, complex configs) and Betterfox (performance-heavy tweaks), **PhantomFox is simple**:
 - Not hundreds of prefs, just the essentials
 - Focused on **real-world privacy & security**
 - Works **out of the box** — no constant tweaking required
-
----
-
-## 📝 Changelog
-
-See [CHANGELOG.md](./CHANGELOG.md) for version history.
 
 ---
 
