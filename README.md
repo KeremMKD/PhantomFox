@@ -13,8 +13,6 @@ PhantomFox disables telemetry, Firefox Sync, tracking features, and adds several
 - **Performance tweaks**: hardware acceleration, optimized connections, WebRender  
 - **Minimal startup**: Firefox opens with `about:blank` for speed and focus  
 - **Security**: Safe Browsing (malware & phishing protection) stays enabled  
-- Easy to **update with a single terminal command**  
-
 ---
 
 ## ❤️ PhantomFox supports all Firefox-based browsers
