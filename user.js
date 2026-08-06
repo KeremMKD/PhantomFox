@@ -1,9 +1,10 @@
 // =====================================================================
-//  PhantomFox 2.0 - Privacy & Performance Configuration for Firefox
+//  PhantomFox user.js - Privacy & Performance Configuration for Firefox
 // =====================================================================
 //  A minimalist but powerful alternative to Arkenfox and Betterfox
 //  Focus: privacy, performance, and simplicity
 //  Works on Linux, macOS, and Windows
+//  By Kerem D. (AKA KeremMKD, MKD, MKDPrime48135)
 // =====================================================================
 
 // ---------------------------------------------------------------------
@@ -52,6 +53,7 @@ user_pref("privacy.trackingprotection.pbmode.enabled", true);
 user_pref("privacy.partition.network_state.ocsp_cache", true);
 user_pref("privacy.userContext.enabled", true);     // Enable Containers
 user_pref("privacy.userContext.ui.enabled", true);
+user_pref("dom.push.enabled", false); // Disable Push Notifications
 
 // ---------------------------------------------------------------------
 //  NETWORK
@@ -76,6 +78,8 @@ user_pref("extensions.pocket.enabled", false);
 user_pref("extensions.update.enabled", false);       // Disable auto-update for extensions
 user_pref("media.autoplay.default", 5);              // Block autoplay
 user_pref("dom.disable_window_move_resize", true);   // Prevent scripts from resizing windows
+user_pref("browser.compactmode.show", true); // Enable Compact Mode
+user_pref("toolkit.legacyUserProfileCustomizations.stylesheets", true); // Enable Custom userChrome.css
 
 // ---------------------------------------------------------------------
 //  PERFORMANCE
