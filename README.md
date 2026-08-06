@@ -46,6 +46,8 @@ Replace `xxxxxxxx.default-release` with your actual profile name.
 ---
 
 ### 3. Copy `user.js` into Profile
+
+For Linux:
 ```bash
 cp user.js ~/.mozilla/firefox/xxxxxxxx.default-release/
 ```
